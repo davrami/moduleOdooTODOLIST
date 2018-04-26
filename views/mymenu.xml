@@ -1,0 +1,12 @@
+<?xml	version="1.0"?>	
+<odoo>	
+	<!--	Action	to	open	To-do	Task	list	-->	
+	<act_window	id="action_myconference"	
+			name="Listado de tareas TODOLIST"	
+			res_model="mytodolist.myconf"
+			view_mode="tree,form"	/>	
+	<!--	Menu	item	to	open	To-do	Task	list	-->	
+	<menuitem	id="menu_myconference"	
+			name="TODOLIST"	
+			action="action_myconference"	/>	
+</odoo>
